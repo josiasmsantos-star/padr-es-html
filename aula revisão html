@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 05</title>
+</head>
+<body>
+    <h1>Revisão das últimas aulas</h1>
+    <h2>Usando as principais tags</h2>
+    <p>Esta página apresenta os principais elementos utilizados na criação de uma página web.</p>
+    <hr>
+    <nav>
+        <a href="#texto">Texto</a> | 
+        <a href="#listas">Listas</a> | 
+        <a href="#imagem">Imagem</a> | 
+        <a href="#tabela">Tabela</a> | 
+        <a href="#formulario">Formulário</a>
+    </nav>
+    
+    <main>
+        <section id="texto">
+            <h2>Elemento de texto</h2>
+            <p>A tag <strong>&lt;strong&gt;</strong> deixa o texto em negrito.</p>
+            <p>A tag <em>&lt;em&gt;</em> deixa o texto em itálico.</p>
+            <p>A tag <mark>&lt;mark&gt;</mark> destaca o texto.</p>
+            <p>A tag <del>&lt;del&gt;</del> risca o texto.</p>
+            <p>A tag <u>&lt;u&gt;</u> sublinha o texto.</p>
+            <p>A tag <ins>&lt;ins&gt;</ins> representa um texto inserido.</p>
+            <p>A tag <small>&lt;small&gt;</small> deixa o texto em tamanho menor.</p>
+            <p>Exemplo de quebra de linha <br> Esta frase aparece na linha de baixo.</p>
+            <p>Exemplo utilizando <span>&lt;span&gt;</span>: Uma tag utilizada para agrupar pequenos trechos.</p>
+        </section>
+        <hr>
+
+        <section id="listas">
+            <h2>Listas</h2>
+            <h3>Listas Ordenadas</h3>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ol>
+            
+            <h3>Listas Não Ordenadas</h3>
+            <ul>
+                <li>Pedreiro</li>
+                <li>Arquiteto</li>
+                <li>Engenheiro</li>
+            </ul>
+        </section>
+        <hr>
+
+        <section id="imagem"> 
+            <h3>Imagem</h3>
+            <img src="https://www.unovacursos.com.br/blog/wp-content/uploads/2022/10/curso-de-informatica.jpg" alt="Imagem de exemplo" width="300" height="190">
+            <p>A tag &lt;img&gt; exibe uma imagem.</p>
+        </section>
+        <hr>
+
+        <section id="tabela">
+            <h2>Tabela</h2>
+            <table border="1">
+                <caption>Exemplo de Tabela</caption>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Curso</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Eduardo</td>
+                        <td>Html</td>
+                    </tr>
+                    <tr>
+                        <td>Luís</td>
+                        <td>JavaScript</td>
+                    </tr>
+                    <tr>
+                        <td>Matheus</td>
+                        <td>CSS</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <hr>
+
+        <section id="formulario">
+            <h2>Formulário</h2>
+            <form>
+                <label for="Nome">Nome</label><br>
+                <input type="text" id="Nome"><br><br>
+                
+                <label for="Email">E-mail</label><br>
+                <input type="email" id="Email"><br><br>
+                
+                <label for="Senha">Senha</label><br>
+                <input type="password" id="Senha"><br><br>
+                
+                <label for="Idade">Idade</label><br>
+                <input type="number" id="Idade"><br><br>
+                
+                <label for="Cor">Cor favorita</label><br>
+                <input type="color" id="Cor"><br><br>
+                
+                <label for="Nascimento">Data de nascimento</label><br>
+                <input type="date" id="Nascimento"><br><br>
+                
+                <label for="Arquivo">Enviar arquivos</label><br>
+                <input type="file" id="Arquivo"><br><br>
+                  <label>Volune: </label><br>
+                <input type="range"><br>
+                <br>
+                <label>Pesquisa: </label><br>
+                <input type="search"><br>
+                <br>
+                <label>Site: </label><br>
+                <input type="url"><br>
+                <br>
+                <label>Telefone: </label><br>
+                <input type="tel"><br>
+                <br>
+                <Label>Você é o que?: </Label><br>
+                <input type="radio" name="opcao" value="opcao1"> Homi <br>
+                <input type="radio" name="opcao" value="opcao2"> Muié <br>
+                <input type="radio" name="opcao" value="opcao3"> Batman <br>
+                <br>
+                <label>Interesses: </label><br>
+                <input type="checkbox"> HTML <br><!--Cria uma caixa de seleção-->
+                <input type="checkbox" name="interesse2" value="interesse2"> CSS <br>
+                <input type="checkbox" name="interesse3" value="interesse3"> JavaScript <br>
+                <br>
+                <strong>Botões</strong><br>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </form>
+        </section>
+        <!--artigo-->
+        <article>
+            <h2>Artigo</h2>
+            <p> A tag ARTICLE representa um conteudo independente como uma notícia ou postagem de blog.</p>
+        </article>
+        <!--Aside-->
+        <anside>
+            <h3>curiosidade</h3>
+            <p>A tag ANSIDE é ultilizada para conteúdos complementares como anúnico ou informações adicionais.</p>
+        </anside>
+    </main>
+    <hr>
+    <!--Rodapé-->
+    <footer>
+        <p>
+             ©2026- curso de Desenvolvimento Web - Senai</p>
+    </footer>
+
+</body>
+</html>
