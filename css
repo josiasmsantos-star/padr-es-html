@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>introdução ao css</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="titulo">Introdução ao CSS</h1>
+
+
+        <p> <h1>começando a estilizar a minha pagina web</h1></p>
+        <p> <h2> começando css do zero </h2> </p>
+        <p> <h3> aprendendo css </h3> </p>
+
+       <div class="caixa">
+        <h2>caixa de conteudo</h2>
+        <p>Esse é um exemplo de caixa de conteúdo estilizada com CSS.</p>
+       </div>
+
+    <div class="botoes">
+     <button>Clique aqui</button>
+     <button>Botão teste</button>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+css
+    body{
+        font-family: arial, helvetica, sans-serif;
+        background-color: #f4f4f4;
+        margin: 20px;
+
+    }
+
+    #titulo{
+        color:navy;
+        text-align: center; 
+    }
+
+    .texto{
+        color: #333;
+        font-size: 18px;
+    }
+
+    button {
+        background-color: green;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: red;
+    }
+
+    .botoes {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .caixa{
+        background-color: white;
+        border: 2px solid black;
+        padding: 20px;
+        margin: 20px;
+        width: 300px;
+        border-radius: 40px;
+    }
+    
